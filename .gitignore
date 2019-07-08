@@ -26,3 +26,7 @@ node_modules
 /public/packs-test
 /node_modules
 .idea/
+
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
