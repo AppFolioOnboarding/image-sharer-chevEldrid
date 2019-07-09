@@ -1,0 +1,17 @@
+<h1>New Article</h1>
+
+<%= form_with scope: :image, url: images_path, local: true do |form| %>
+  <p>
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+  </p>
+
+  <p>
+    <%= form.label :imageLink %><br>
+    <%= form.text_field :imageLink %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
