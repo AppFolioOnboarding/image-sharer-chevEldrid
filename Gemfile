@@ -11,7 +11,8 @@ gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+# add for url verification
+gem 'validate_url'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Use ActiveModel has_secure_password
