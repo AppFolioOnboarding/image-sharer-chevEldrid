@@ -1,0 +1,18 @@
+<%= stylesheet_link_tag "pictures" %>
+<h1>Listing pictures</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Picture</th>
+    <th></th>
+  </tr>
+
+  <% @images.each do |image| %>
+    <tr>
+      <td><%= image.title %></td>
+      <td><img class="four-hundred-max" src= <%=image.imageLink%> ></td>
+      <td><%= link_to 'Show', image_path(image) %></td>
+    </tr>
+  <% end %>
+</table>
